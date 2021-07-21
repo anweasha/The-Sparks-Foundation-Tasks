@@ -1,0 +1,7 @@
+import pandas as pd
+
+url_data = (r'https://raw.githubusercontent.com/Kushal997-das/THE-SPARKS-FOUNDATION/master/Stock%20Market%20Prediction%20using%20Numerical%20and%20Textual%20Analysis/%5EBSESN.csv')
+
+data_csv = pd.read_csv(url_data)
+
+data_csv.head()
